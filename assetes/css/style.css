@@ -179,11 +179,10 @@ dropdown input:checked ~ ul{
 }
 .btn-common {
    transition: opacity .8s;
-   transition: padding .4s ease;
 }
 .btn-common:hover {
    opacity: 0.7;
-   padding: 10px 23px;
+   
 }
 .hero-section {}
 .hero-section .hero-container{
