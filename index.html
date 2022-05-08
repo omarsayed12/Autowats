@@ -18,7 +18,7 @@
    <header class="main-header">
       <div class="nav-container fixed-top">
          <div class="container-xxl">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg ">
                <div class="container-fluid">
                <a class="navbar-brand" href="./index.html">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="36" viewBox="0 0 195 36" fill="none">
@@ -53,14 +53,21 @@
                      </li>
                   </ul>
                   <div class="d-flex align-items-center">
-                     <a href="#" class="lang-logo">
-                        <img src="./assetes/images/lang.png" class="w-100 lang-icon" alt="language icon">
-                     </a>
-                     <span class="lang-name">turkish</span>
-                  </div>
-                  <div class="d-flex">
+                     <dropdown>
+                        <input id="toggle2" type="checkbox">
+                        <label for="toggle2" class="animate">
+                        <img src="./assetes/images/lang.png" class="lang-icon" alt="language icon">
+                        <span class="lang-name">turkish</span>
+                     </label>
+                       <ul class="animate m-0 p-0">
+                         <li class="animate lang-name">arabic</li>
+                         <li class="animate lang-name">english</li>
+                       </ul>
+                     </dropdown>
+                     </div>
+                  <div class="btnGroup-login d-flex">
                      <button class="btn btn-common btn-clicked btn-login" type="button">login</button>
-                     <button class="btn btn-clicked btn-signUp" type="button">sign up</button>
+                     <button class="btn btn-common btn-clicked btn-signUp" type="button">sign up</button>
                   </div>
                </div>
             </nav>
@@ -91,17 +98,17 @@
       </section>
       <div class="our-client">
          <div class="container">
-            <div class="row autoplay">
-               <div class="col-12 text-center">
+            <div class="autoplay">
+               <div class="text-center">
                   <img src="./assetes/images/ghmza 1.png" class="img-fluid" alt="ghmza company">
                </div>
-               <div class="col-12 text-center">
+               <div class="text-center">
                   <img src="./assetes/images/attara 1.png" class="img-fluid attara" alt="attara company">
                </div>
-               <div class="col-12 text-center">
+               <div class="text-center">
                   <img src="./assetes/images/alammari 1.png" class="img-fluid attara" alt="alammari company">
                </div>
-               <div class="col-12 text-center">
+               <div class="text-center">
                   <img src="./assetes/images/amiral 1.png" class="img-fluid" alt="amiral company">
                </div>
             </div>
