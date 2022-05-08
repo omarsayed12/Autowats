@@ -38,6 +38,7 @@ $('.autoplay').slick({
 $('.feture').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
+  autoplay: true,
   autoplaySpeed: 3000,
   mobileFirst: true,
   arrows: false,
@@ -83,8 +84,8 @@ $('.feture').slick({
 $('.test').slick({
   slidesToShow: 6,
   slidesToScroll: 1,
+  autoplay: true,
   autoplaySpeed: 3000,
-  mobileFirst: true,
   mobileFirst: true,
   responsive: [
       {
